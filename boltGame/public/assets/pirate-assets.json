@@ -1,0 +1,639 @@
+{
+  "name": "Pirate Adventure Asset Registry",
+  "description": "Complete pirate-themed asset collection with ships, islands, structures, and treasures",
+  "version": "1.0.0",
+  "baseURL": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate",
+  "gameType": "pirate_adventure",
+  "uniformAssets": {
+    "description": "All pirate sprites are consistent size with detailed artwork",
+    "standardSize": 64,
+    "scale": 1.0,
+    "gridSize": 32
+  },
+  "categories": {
+    "ships_boats": {
+      "description": "Various ships and boats for naval adventures",
+      "count": 10,
+      "assets": [
+        {
+          "id": "ship_pirate_large",
+          "name": "Large Pirate Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-pirate-large.png",
+          "type": "ship",
+          "tags": ["ship", "pirate", "large", "main"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_pirate_medium",
+          "name": "Medium Pirate Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-pirate-medium.png",
+          "type": "ship",
+          "tags": ["ship", "pirate", "medium", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_pirate_small",
+          "name": "Small Pirate Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-pirate-small.png",
+          "type": "ship",
+          "tags": ["ship", "pirate", "small", "fast"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_large",
+          "name": "Large Merchant Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-large.png",
+          "type": "ship",
+          "tags": ["ship", "merchant", "large", "trade"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_medium",
+          "name": "Medium Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-medium.png",
+          "type": "ship",
+          "tags": ["ship", "neutral", "medium", "basic"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_small",
+          "name": "Small Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-small.png",
+          "type": "ship",
+          "tags": ["ship", "small", "basic", "starter"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_ghost",
+          "name": "Ghost Ship",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-ghost.png",
+          "type": "ship",
+          "tags": ["ship", "ghost", "spooky", "supernatural"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "ship_wreck",
+          "name": "Shipwreck",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/ship-wreck.png",
+          "type": "ship",
+          "tags": ["ship", "wreck", "destroyed", "obstacle"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "boat_row_large",
+          "name": "Large Rowboat",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/boat-row-large.png",
+          "type": "boat",
+          "tags": ["boat", "row", "large", "transport"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "boat_row_small",
+          "name": "Small Rowboat",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/boat-row-small.png",
+          "type": "boat",
+          "tags": ["boat", "row", "small", "escape"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "flags_banners": {
+      "description": "Pirate flags and banners for identification and decoration",
+      "count": 8,
+      "assets": [
+        {
+          "id": "flag_pirate",
+          "name": "Pirate Flag",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-pirate.png",
+          "type": "flag",
+          "tags": ["flag", "pirate", "skull", "main"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_pirate_high",
+          "name": "High Pirate Flag",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-pirate-high.png",
+          "type": "flag",
+          "tags": ["flag", "pirate", "high", "pole"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_pirate_pennant",
+          "name": "Pirate Pennant",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-pirate-pennant.png",
+          "type": "flag",
+          "tags": ["flag", "pirate", "pennant", "small"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_pirate_high_pennant",
+          "name": "High Pirate Pennant",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-pirate-high-pennant.png",
+          "type": "flag",
+          "tags": ["flag", "pirate", "high", "pennant"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_neutral",
+          "name": "Neutral Flag",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag.png",
+          "type": "flag",
+          "tags": ["flag", "neutral", "basic", "trade"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_high",
+          "name": "High Flag",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-high.png",
+          "type": "flag",
+          "tags": ["flag", "high", "pole", "basic"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_pennant",
+          "name": "Pennant Flag",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-pennant.png",
+          "type": "flag",
+          "tags": ["flag", "pennant", "small", "basic"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "flag_high_pennant",
+          "name": "High Pennant Flag",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/flag-high-pennant.png",
+          "type": "flag",
+          "tags": ["flag", "high", "pennant", "decoration"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "items_props": {
+      "description": "Treasure chests, barrels, bottles, and pirate equipment",
+      "count": 9,
+      "assets": [
+        {
+          "id": "chest",
+          "name": "Treasure Chest",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/chest.png",
+          "type": "treasure",
+          "tags": ["treasure", "chest", "gold", "valuable"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "barrel",
+          "name": "Barrel",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/barrel.png",
+          "type": "container",
+          "tags": ["barrel", "storage", "supplies", "basic"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "cannon",
+          "name": "Cannon",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/cannon.png",
+          "type": "weapon",
+          "tags": ["cannon", "weapon", "combat", "defense"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "cannon_mobile",
+          "name": "Mobile Cannon",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/cannon-mobile.png",
+          "type": "weapon",
+          "tags": ["cannon", "mobile", "weapon", "movable"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "cannon_ball",
+          "name": "Cannon Ball",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/cannon-ball.png",
+          "type": "ammunition",
+          "tags": ["cannonball", "ammunition", "projectile", "round"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "bottle",
+          "name": "Bottle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/bottle.png",
+          "type": "item",
+          "tags": ["bottle", "drink", "supplies", "small"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "bottle_large",
+          "name": "Large Bottle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/bottle-large.png",
+          "type": "item",
+          "tags": ["bottle", "large", "supplies", "drink"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "crate",
+          "name": "Crate",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/crate.png",
+          "type": "container",
+          "tags": ["crate", "storage", "cargo", "supplies"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "crate_bottles",
+          "name": "Crate of Bottles",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/crate-bottles.png",
+          "type": "container",
+          "tags": ["crate", "bottles", "supplies", "drink"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "environment_terrain": {
+      "description": "Island terrain, vegetation, and natural environment pieces",
+      "count": 18,
+      "assets": [
+        {
+          "id": "palm_straight",
+          "name": "Straight Palm Tree",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/palm-straight.png",
+          "type": "vegetation",
+          "tags": ["palm", "tree", "straight", "tropical"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "palm_bend",
+          "name": "Bent Palm Tree",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/palm-bend.png",
+          "type": "vegetation",
+          "tags": ["palm", "tree", "bent", "tropical"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "palm_detailed_straight",
+          "name": "Detailed Straight Palm",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/palm-detailed-straight.png",
+          "type": "vegetation",
+          "tags": ["palm", "detailed", "straight", "premium"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "palm_detailed_bend",
+          "name": "Detailed Bent Palm",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/palm-detailed-bend.png",
+          "type": "vegetation",
+          "tags": ["palm", "detailed", "bent", "premium"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "grass",
+          "name": "Grass",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/grass.png",
+          "type": "vegetation",
+          "tags": ["grass", "ground", "basic", "green"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "grass_patch",
+          "name": "Grass Patch",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/grass-patch.png",
+          "type": "vegetation",
+          "tags": ["grass", "patch", "small", "decoration"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "grass_plant",
+          "name": "Grass Plant",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/grass-plant.png",
+          "type": "vegetation",
+          "tags": ["grass", "plant", "small", "detail"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "patch_grass",
+          "name": "Ground Grass Patch",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/patch-grass.png",
+          "type": "ground",
+          "tags": ["patch", "grass", "ground", "terrain"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "patch_grass_foliage",
+          "name": "Grass Patch with Foliage",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/patch-grass-foliage.png",
+          "type": "ground",
+          "tags": ["patch", "grass", "foliage", "detailed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "patch_sand",
+          "name": "Sand Patch",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/patch-sand.png",
+          "type": "ground",
+          "tags": ["patch", "sand", "beach", "terrain"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "patch_sand_foliage",
+          "name": "Sand Patch with Foliage",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/patch-sand-foliage.png",
+          "type": "ground",
+          "tags": ["patch", "sand", "foliage", "mixed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "rocks_a",
+          "name": "Rock Formation A",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/rocks-a.png",
+          "type": "obstacle",
+          "tags": ["rocks", "formation", "obstacle", "natural"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "rocks_b",
+          "name": "Rock Formation B",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/rocks-b.png",
+          "type": "obstacle",
+          "tags": ["rocks", "formation", "obstacle", "variant"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "rocks_c",
+          "name": "Rock Formation C",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/rocks-c.png",
+          "type": "obstacle",
+          "tags": ["rocks", "formation", "obstacle", "large"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "rocks_sand_a",
+          "name": "Sandy Rock Formation A",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/rocks-sand-a.png",
+          "type": "obstacle",
+          "tags": ["rocks", "sand", "beach", "mixed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "rocks_sand_b",
+          "name": "Sandy Rock Formation B",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/rocks-sand-b.png",
+          "type": "obstacle",
+          "tags": ["rocks", "sand", "beach", "variant"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "rocks_sand_c",
+          "name": "Sandy Rock Formation C",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/rocks-sand-c.png",
+          "type": "obstacle",
+          "tags": ["rocks", "sand", "beach", "small"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "hole",
+          "name": "Hole",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/hole.png",
+          "type": "terrain",
+          "tags": ["hole", "ground", "trap", "hazard"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "structures_buildings": {
+      "description": "Pirate structures, towers, platforms, and buildings",
+      "count": 15,
+      "assets": [
+        {
+          "id": "tower_complete_large",
+          "name": "Large Complete Tower",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-complete-large.png",
+          "type": "building",
+          "tags": ["tower", "complete", "large", "fortress"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_complete_small",
+          "name": "Small Complete Tower",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-complete-small.png",
+          "type": "building",
+          "tags": ["tower", "complete", "small", "outpost"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_watch",
+          "name": "Watch Tower",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-watch.png",
+          "type": "building",
+          "tags": ["tower", "watch", "lookout", "defense"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_base",
+          "name": "Tower Base",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-base.png",
+          "type": "building_part",
+          "tags": ["tower", "base", "foundation", "modular"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_base_door",
+          "name": "Tower Base with Door",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-base-door.png",
+          "type": "building_part",
+          "tags": ["tower", "base", "door", "entrance"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_middle",
+          "name": "Tower Middle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-middle.png",
+          "type": "building_part",
+          "tags": ["tower", "middle", "section", "modular"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_middle_windows",
+          "name": "Tower Middle with Windows",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-middle-windows.png",
+          "type": "building_part",
+          "tags": ["tower", "middle", "windows", "detailed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_roof",
+          "name": "Tower Roof",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-roof.png",
+          "type": "building_part",
+          "tags": ["tower", "roof", "top", "modular"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tower_top",
+          "name": "Tower Top",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tower-top.png",
+          "type": "building_part",
+          "tags": ["tower", "top", "peak", "modular"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure",
+          "name": "Basic Structure",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure.png",
+          "type": "building",
+          "tags": ["structure", "basic", "building", "simple"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_roof",
+          "name": "Structure with Roof",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-roof.png",
+          "type": "building",
+          "tags": ["structure", "roof", "shelter", "complete"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_fence",
+          "name": "Fence",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-fence.png",
+          "type": "barrier",
+          "tags": ["fence", "barrier", "boundary", "wood"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_fence_sides",
+          "name": "Fence with Sides",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-fence-sides.png",
+          "type": "barrier",
+          "tags": ["fence", "sides", "corner", "enclosed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_platform_dock",
+          "name": "Dock Platform",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-platform-dock.png",
+          "type": "platform",
+          "tags": ["platform", "dock", "harbor", "ships"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_platform_dock_small",
+          "name": "Small Dock Platform",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-platform-dock-small.png",
+          "type": "platform",
+          "tags": ["platform", "dock", "small", "boats"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "platforms_walkways": {
+      "description": "Wooden platforms and walkways for level construction",
+      "count": 4,
+      "assets": [
+        {
+          "id": "platform",
+          "name": "Basic Platform",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/platform.png",
+          "type": "platform",
+          "tags": ["platform", "basic", "walkway", "wood"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "platform_planks",
+          "name": "Plank Platform",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/platform-planks.png",
+          "type": "platform",
+          "tags": ["platform", "planks", "detailed", "textured"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_platform",
+          "name": "Structure Platform",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-platform.png",
+          "type": "platform",
+          "tags": ["platform", "structure", "support", "elevated"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "structure_platform_small",
+          "name": "Small Structure Platform",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/structure-platform-small.png",
+          "type": "platform",
+          "tags": ["platform", "small", "compact", "basic"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "tools_equipment": {
+      "description": "Pirate tools and equipment",
+      "count": 2,
+      "assets": [
+        {
+          "id": "tool_shovel",
+          "name": "Shovel",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tool-shovel.png",
+          "type": "tool",
+          "tags": ["tool", "shovel", "dig", "treasure"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "tool_paddle",
+          "name": "Paddle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/pirate/pirate/tool-paddle.png",
+          "type": "tool",
+          "tags": ["tool", "paddle", "boat", "rowing"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    }
+  },
+  "usage": {
+    "description": "How to use this pirate asset registry for creating pirate-themed games",
+    "instructions": [
+      "All sprites are 64x64 pixels - use scale 1.0 for pixel-perfect rendering",
+      "Mix different ship types for varied naval gameplay",
+      "Use modular tower pieces to build custom fortifications",
+      "Combine environment pieces to create realistic tropical islands",
+      "Flags help identify different factions and territories",
+      "Items and props add detail and objectives to your pirate world"
+    ],
+    "gameplayElements": {
+      "naval_combat": ["ship_pirate_large", "ship_pirate_medium", "cannon", "cannon_ball"],
+      "treasure_hunting": ["chest", "tool_shovel", "hole", "rocks_a"],
+      "island_exploration": ["palm_straight", "palm_bend", "grass", "patch_sand"],
+      "base_building": ["tower_base", "tower_middle", "tower_roof", "structure"],
+      "harbor_scenes": ["structure_platform_dock", "boat_row_large", "barrel", "crate"]
+    },
+    "themeVariants": {
+      "tropical_paradise": {
+        "description": "Peaceful tropical setting with lush vegetation",
+        "key_assets": ["palm_detailed_straight", "patch_grass_foliage", "boat_row_small"],
+        "atmosphere": "peaceful, exploration-focused"
+      },
+      "pirate_stronghold": {
+        "description": "Fortified pirate base with defenses",
+        "key_assets": ["tower_complete_large", "cannon", "flag_pirate", "structure_fence"],
+        "atmosphere": "dangerous, combat-focused"
+      },
+      "abandoned_island": {
+        "description": "Mysterious abandoned location with secrets",
+        "key_assets": ["ship_wreck", "tower_watch", "hole", "rocks_sand_a"],
+        "atmosphere": "mysterious, treasure-hunting"
+      },
+      "bustling_harbor": {
+        "description": "Active trading port with ships and cargo",
+        "key_assets": ["ship_large", "structure_platform_dock", "crate", "barrel"],
+        "atmosphere": "busy, trade-focused"
+      }
+    },
+    "exampleCode": {
+      "description": "Phaser 3 example using pirate assets",
+      "javascript": "// Create pirate ship\nthis.pirateShip = this.physics.add.sprite(100, 300, 'ship_pirate_large');\nthis.pirateShip.setScale(1.0);\n\n// Create island environment\nconst palm = this.add.sprite(200, 400, 'palm_straight');\nconst rocks = this.add.sprite(150, 450, 'rocks_a');\nconst chest = this.add.sprite(250, 450, 'chest');\n\n// Create dock structure\nconst dock = this.add.sprite(300, 480, 'structure_platform_dock');\ndock.setScale(1.0);\n\n// Add pirate flag\nconst flag = this.add.sprite(350, 400, 'flag_pirate');\nflag.setScale(1.0);"
+    },
+    "assetCount": {
+      "ships_boats": 10,
+      "flags_banners": 8,
+      "items_props": 9,
+      "environment_terrain": 18,
+      "structures_buildings": 15,
+      "platforms_walkways": 4,
+      "tools_equipment": 2,
+      "total": 66
+    }
+  }
+}

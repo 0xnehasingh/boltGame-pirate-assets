@@ -1,0 +1,882 @@
+{
+  "name": "Extended Character Asset Registry",
+  "description": "Comprehensive character sprites with detailed animations and poses from PNG collection",
+  "version": "1.0.0",
+  "baseURL": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG",
+  "gameType": "character_platformer",
+  "uniformAssets": {
+    "description": "All character sprites are consistent size with detailed poses",
+    "standardSize": 64,
+    "scale": 1.0,
+    "gridSize": 32
+  },
+  "categories": {
+    "player_characters": {
+      "description": "Main player character with full animation set",
+      "count": 25,
+      "assets": [
+        {
+          "id": "player_idle",
+          "name": "Player Idle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_idle.png",
+          "type": "character",
+          "tags": ["player", "idle", "main", "base"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_walk1",
+          "name": "Player Walk 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_walk1.png",
+          "type": "character",
+          "tags": ["player", "walk", "animation", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_walk2",
+          "name": "Player Walk 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_walk2.png",
+          "type": "character",
+          "tags": ["player", "walk", "animation", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_jump",
+          "name": "Player Jump",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_jump.png",
+          "type": "character",
+          "tags": ["player", "jump", "air", "platformer"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_fall",
+          "name": "Player Fall",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_fall.png",
+          "type": "character",
+          "tags": ["player", "fall", "air", "gravity"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_duck",
+          "name": "Player Duck",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_duck.png",
+          "type": "character",
+          "tags": ["player", "duck", "crouch", "defensive"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_hurt",
+          "name": "Player Hurt",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_hurt.png",
+          "type": "character",
+          "tags": ["player", "hurt", "damage", "reaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_climb1",
+          "name": "Player Climb 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_climb1.png",
+          "type": "character",
+          "tags": ["player", "climb", "ladder", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_climb2",
+          "name": "Player Climb 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_climb2.png",
+          "type": "character",
+          "tags": ["player", "climb", "ladder", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_action1",
+          "name": "Player Action 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_action1.png",
+          "type": "character",
+          "tags": ["player", "action", "attack", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_action2",
+          "name": "Player Action 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_action2.png",
+          "type": "character",
+          "tags": ["player", "action", "special", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_kick",
+          "name": "Player Kick",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_kick.png",
+          "type": "character",
+          "tags": ["player", "kick", "combat", "melee"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_swim1",
+          "name": "Player Swim 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_swim1.png",
+          "type": "character",
+          "tags": ["player", "swim", "water", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_swim2",
+          "name": "Player Swim 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_swim2.png",
+          "type": "character",
+          "tags": ["player", "swim", "water", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_talk",
+          "name": "Player Talk",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_talk.png",
+          "type": "character",
+          "tags": ["player", "talk", "dialogue", "interaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_slide",
+          "name": "Player Slide",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_slide.png",
+          "type": "character",
+          "tags": ["player", "slide", "movement", "speed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_hang",
+          "name": "Player Hang",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_hang.png",
+          "type": "character",
+          "tags": ["player", "hang", "ledge", "platformer"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_skid",
+          "name": "Player Skid",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_skid.png",
+          "type": "character",
+          "tags": ["player", "skid", "stop", "momentum"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_back",
+          "name": "Player Back",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_back.png",
+          "type": "character",
+          "tags": ["player", "back", "rear", "direction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_stand",
+          "name": "Player Stand",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_stand.png",
+          "type": "character",
+          "tags": ["player", "stand", "ready", "base"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_hold1",
+          "name": "Player Hold 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_hold1.png",
+          "type": "character",
+          "tags": ["player", "hold", "carry", "interaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_hold2",
+          "name": "Player Hold 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_hold2.png",
+          "type": "character",
+          "tags": ["player", "hold", "carry", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_cheer1",
+          "name": "Player Cheer 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_cheer1.png",
+          "type": "character",
+          "tags": ["player", "cheer", "victory", "celebration"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_cheer2",
+          "name": "Player Cheer 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/Poses/player_cheer2.png",
+          "type": "character",
+          "tags": ["player", "cheer", "victory", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "player_tilesheet",
+          "name": "Player Tilesheet",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Player/player_tilesheet.png",
+          "type": "tilesheet",
+          "tags": ["player", "tilesheet", "spritesheet", "complete"],
+          "dimensions": { "width": 512, "height": 512, "scale": 1.0 }
+        }
+      ]
+    },
+    "female_characters": {
+      "description": "Female character with full animation set",
+      "count": 24,
+      "assets": [
+        {
+          "id": "female_idle",
+          "name": "Female Idle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_idle.png",
+          "type": "character",
+          "tags": ["female", "idle", "main", "base"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_walk1",
+          "name": "Female Walk 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_walk1.png",
+          "type": "character",
+          "tags": ["female", "walk", "animation", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_walk2",
+          "name": "Female Walk 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_walk2.png",
+          "type": "character",
+          "tags": ["female", "walk", "animation", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_jump",
+          "name": "Female Jump",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_jump.png",
+          "type": "character",
+          "tags": ["female", "jump", "air", "platformer"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_fall",
+          "name": "Female Fall",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_fall.png",
+          "type": "character",
+          "tags": ["female", "fall", "air", "gravity"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_duck",
+          "name": "Female Duck",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_duck.png",
+          "type": "character",
+          "tags": ["female", "duck", "crouch", "defensive"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_hurt",
+          "name": "Female Hurt",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_hurt.png",
+          "type": "character",
+          "tags": ["female", "hurt", "damage", "reaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_climb1",
+          "name": "Female Climb 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_climb1.png",
+          "type": "character",
+          "tags": ["female", "climb", "ladder", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_climb2",
+          "name": "Female Climb 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_climb2.png",
+          "type": "character",
+          "tags": ["female", "climb", "ladder", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_action1",
+          "name": "Female Action 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_action1.png",
+          "type": "character",
+          "tags": ["female", "action", "attack", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_action2",
+          "name": "Female Action 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_action2.png",
+          "type": "character",
+          "tags": ["female", "action", "special", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_kick",
+          "name": "Female Kick",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_kick.png",
+          "type": "character",
+          "tags": ["female", "kick", "combat", "melee"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_swim1",
+          "name": "Female Swim 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_swim1.png",
+          "type": "character",
+          "tags": ["female", "swim", "water", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_swim2",
+          "name": "Female Swim 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_swim2.png",
+          "type": "character",
+          "tags": ["female", "swim", "water", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_talk",
+          "name": "Female Talk",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_talk.png",
+          "type": "character",
+          "tags": ["female", "talk", "dialogue", "interaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_slide",
+          "name": "Female Slide",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_slide.png",
+          "type": "character",
+          "tags": ["female", "slide", "movement", "speed"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_hang",
+          "name": "Female Hang",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_hang.png",
+          "type": "character",
+          "tags": ["female", "hang", "ledge", "platformer"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_skid",
+          "name": "Female Skid",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_skid.png",
+          "type": "character",
+          "tags": ["female", "skid", "stop", "momentum"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_back",
+          "name": "Female Back",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_back.png",
+          "type": "character",
+          "tags": ["female", "back", "rear", "direction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_stand",
+          "name": "Female Stand",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_stand.png",
+          "type": "character",
+          "tags": ["female", "stand", "ready", "base"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_hold1",
+          "name": "Female Hold 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_hold1.png",
+          "type": "character",
+          "tags": ["female", "hold", "carry", "interaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_hold2",
+          "name": "Female Hold 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_hold2.png",
+          "type": "character",
+          "tags": ["female", "hold", "carry", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_cheer1",
+          "name": "Female Cheer 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_cheer1.png",
+          "type": "character",
+          "tags": ["female", "cheer", "victory", "celebration"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "female_cheer2",
+          "name": "Female Cheer 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Female/Poses/female_cheer2.png",
+          "type": "character",
+          "tags": ["female", "cheer", "victory", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        }
+      ]
+    },
+    "zombie_characters": {
+      "description": "Zombie enemy character with full animation set",
+      "count": 25,
+      "assets": [
+        {
+          "id": "zombie_idle",
+          "name": "Zombie Idle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_idle.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "idle", "undead"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_walk1",
+          "name": "Zombie Walk 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_walk1.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "walk", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_walk2",
+          "name": "Zombie Walk 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_walk2.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "walk", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_jump",
+          "name": "Zombie Jump",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_jump.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "jump", "air"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_fall",
+          "name": "Zombie Fall",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_fall.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "fall", "gravity"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_duck",
+          "name": "Zombie Duck",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_duck.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "duck", "crouch"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_hurt",
+          "name": "Zombie Hurt",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_hurt.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "hurt", "damage"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_climb1",
+          "name": "Zombie Climb 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_climb1.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "climb", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_climb2",
+          "name": "Zombie Climb 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_climb2.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "climb", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_action1",
+          "name": "Zombie Action 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_action1.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "action", "attack"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_action2",
+          "name": "Zombie Action 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_action2.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "action", "special"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_kick",
+          "name": "Zombie Kick",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_kick.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "kick", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_swim1",
+          "name": "Zombie Swim 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_swim1.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "swim", "water"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_swim2",
+          "name": "Zombie Swim 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_swim2.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "swim", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_talk",
+          "name": "Zombie Talk",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_talk.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "talk", "interaction"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_slide",
+          "name": "Zombie Slide",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_slide.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "slide", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_hang",
+          "name": "Zombie Hang",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_hang.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "hang", "ledge"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_skid",
+          "name": "Zombie Skid",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_skid.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "skid", "stop"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_back",
+          "name": "Zombie Back",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_back.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "back", "rear"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_stand",
+          "name": "Zombie Stand",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_stand.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "stand", "ready"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_hold1",
+          "name": "Zombie Hold 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_hold1.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "hold", "carry"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_hold2",
+          "name": "Zombie Hold 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_hold2.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "hold", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_cheer1",
+          "name": "Zombie Cheer 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_cheer1.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "cheer", "victory"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_cheer2",
+          "name": "Zombie Cheer 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/Poses/zombie_cheer2.png",
+          "type": "character",
+          "tags": ["zombie", "enemy", "cheer", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "zombie_tilesheet",
+          "name": "Zombie Tilesheet",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Zombie/zombie_tilesheet.png",
+          "type": "tilesheet",
+          "tags": ["zombie", "enemy", "tilesheet", "spritesheet"],
+          "dimensions": { "width": 512, "height": 512, "scale": 1.0 }
+        }
+      ]
+    },
+    "soldier_characters": {
+      "description": "Soldier character with full animation set",
+      "count": 25,
+      "assets": [
+        {
+          "id": "soldier_idle",
+          "name": "Soldier Idle",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_idle.png",
+          "type": "character",
+          "tags": ["soldier", "military", "idle", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_walk1",
+          "name": "Soldier Walk 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_walk1.png",
+          "type": "character",
+          "tags": ["soldier", "military", "walk", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_walk2",
+          "name": "Soldier Walk 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_walk2.png",
+          "type": "character",
+          "tags": ["soldier", "military", "walk", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_jump",
+          "name": "Soldier Jump",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_jump.png",
+          "type": "character",
+          "tags": ["soldier", "military", "jump", "air"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_fall",
+          "name": "Soldier Fall",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_fall.png",
+          "type": "character",
+          "tags": ["soldier", "military", "fall", "gravity"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_duck",
+          "name": "Soldier Duck",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_duck.png",
+          "type": "character",
+          "tags": ["soldier", "military", "duck", "cover"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_hurt",
+          "name": "Soldier Hurt",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_hurt.png",
+          "type": "character",
+          "tags": ["soldier", "military", "hurt", "damage"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_climb1",
+          "name": "Soldier Climb 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_climb1.png",
+          "type": "character",
+          "tags": ["soldier", "military", "climb", "movement"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_climb2",
+          "name": "Soldier Climb 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_climb2.png",
+          "type": "character",
+          "tags": ["soldier", "military", "climb", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_action1",
+          "name": "Soldier Action 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_action1.png",
+          "type": "character",
+          "tags": ["soldier", "military", "action", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_action2",
+          "name": "Soldier Action 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_action2.png",
+          "type": "character",
+          "tags": ["soldier", "military", "action", "special"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_kick",
+          "name": "Soldier Kick",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_kick.png",
+          "type": "character",
+          "tags": ["soldier", "military", "kick", "combat"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_swim1",
+          "name": "Soldier Swim 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_swim1.png",
+          "type": "character",
+          "tags": ["soldier", "military", "swim", "water"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_swim2",
+          "name": "Soldier Swim 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_swim2.png",
+          "type": "character",
+          "tags": ["soldier", "military", "swim", "animation"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_talk",
+          "name": "Soldier Talk",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_talk.png",
+          "type": "character",
+          "tags": ["soldier", "military", "talk", "dialogue"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_slide",
+          "name": "Soldier Slide",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_slide.png",
+          "type": "character",
+          "tags": ["soldier", "military", "slide", "tactical"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_hang",
+          "name": "Soldier Hang",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_hang.png",
+          "type": "character",
+          "tags": ["soldier", "military", "hang", "ledge"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_skid",
+          "name": "Soldier Skid",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_skid.png",
+          "type": "character",
+          "tags": ["soldier", "military", "skid", "stop"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_back",
+          "name": "Soldier Back",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_back.png",
+          "type": "character",
+          "tags": ["soldier", "military", "back", "rear"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_stand",
+          "name": "Soldier Stand",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_stand.png",
+          "type": "character",
+          "tags": ["soldier", "military", "stand", "attention"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_hold1",
+          "name": "Soldier Hold 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_hold1.png",
+          "type": "character",
+          "tags": ["soldier", "military", "hold", "weapon"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_hold2",
+          "name": "Soldier Hold 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_hold2.png",
+          "type": "character",
+          "tags": ["soldier", "military", "hold", "equipment"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_cheer1",
+          "name": "Soldier Cheer 1",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_cheer1.png",
+          "type": "character",
+          "tags": ["soldier", "military", "cheer", "victory"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_cheer2",
+          "name": "Soldier Cheer 2",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/Poses/soldier_cheer2.png",
+          "type": "character",
+          "tags": ["soldier", "military", "cheer", "celebration"],
+          "dimensions": { "width": 64, "height": 64, "scale": 1.0 }
+        },
+        {
+          "id": "soldier_tilesheet",
+          "name": "Soldier Tilesheet",
+          "url": "https://xptqqsqivdlwaogiftxd.supabase.co/storage/v1/object/public/assets/chracter%20platformer/PNG/Soldier/soldier_tilesheet.png",
+          "type": "tilesheet",
+          "tags": ["soldier", "military", "tilesheet", "spritesheet"],
+          "dimensions": { "width": 512, "height": 512, "scale": 1.0 }
+        }
+      ]
+    }
+  },
+  "usage": {
+    "description": "How to use this extended character asset registry effectively",
+    "instructions": [
+      "Each character type has 24 individual poses plus tilesheets (where available)",
+      "All sprites are consistent size - use scale 1.0 for pixel-perfect rendering",
+      "Character poses cover full game mechanics: movement, combat, interaction, environment",
+      "Use character-specific tags to find appropriate poses for your game mechanics",
+      "Tilesheets provide complete sprite collections for advanced animation systems",
+      "Mix and match different character types for diverse gameplay"
+    ],
+    "animationSets": {
+      "basicMovement": ["idle", "walk1", "walk2", "jump", "fall"],
+      "combat": ["action1", "action2", "kick", "hurt"],
+      "interaction": ["talk", "hold1", "hold2", "cheer1", "cheer2"],
+      "environmental": ["climb1", "climb2", "swim1", "swim2", "hang", "slide"],
+      "utility": ["stand", "back", "duck", "skid"]
+    },
+    "characterProfiles": {
+      "player": {
+        "description": "Versatile main character suitable for all game types",
+        "strengths": ["balanced", "heroic", "adaptable"],
+        "use_cases": ["platformer", "adventure", "action"]
+      },
+      "female": {
+        "description": "Female character with graceful animations",
+        "strengths": ["agile", "elegant", "diverse"],
+        "use_cases": ["adventure", "puzzle", "story-driven"]
+      },
+      "zombie": {
+        "description": "Undead enemy character with menacing poses",
+        "strengths": ["threatening", "horror", "enemy"],
+        "use_cases": ["horror", "survival", "combat"]
+      },
+      "soldier": {
+        "description": "Military character with tactical poses",
+        "strengths": ["disciplined", "combat-ready", "tactical"],
+        "use_cases": ["action", "military", "strategy"]
+      }
+    },
+    "exampleCode": {
+      "description": "Phaser 3 example using extended character assets",
+      "javascript": "// Load character from extended registry\nthis.player = this.physics.add.sprite(100, 400, 'player_idle');\nthis.player.setScale(1.0); // Pixel perfect!\n\n// Create character animations\nthis.anims.create({\n  key: 'player_walk',\n  frames: [\n    { key: 'player_walk1' },\n    { key: 'player_walk2' }\n  ],\n  frameRate: 8,\n  repeat: -1\n});\n\n// Enemy character\nconst zombie = this.physics.add.sprite(300, 400, 'zombie_idle');\nzombie.setScale(1.0);\n\n// Female character\nconst female = this.physics.add.sprite(500, 400, 'female_idle');\nfemale.setScale(1.0);"
+    },
+    "assetCount": {
+      "player_characters": 25,
+      "female_characters": 24,
+      "zombie_characters": 25,
+      "soldier_characters": 25,
+      "total": 99
+    }
+  }
+}
