@@ -26,7 +26,8 @@ export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInp
               onClick={(event) => {
                 sendMessage?.(event, examplePrompt.text);
               }}
-              className="flex items-center space-x-2 border border-emerald-500/30 rounded-full bg-slate-900/60 hover:bg-emerald-900/40 backdrop-blur-sm text-slate-200 hover:text-emerald-100 hover:border-emerald-400/50 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-emerald-500/20"
+              className="flex items-center space-x-2 border border-emerald-500/30 rounded-full backdrop-blur-sm text-slate-200 hover:text-emerald-100 hover:border-emerald-400/50 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-emerald-500/20"
+              style={{ backgroundColor: '#141313' }}
             >
               <img 
                 src={examplePrompt.icon} 
@@ -46,7 +47,8 @@ export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInp
               onClick={(event) => {
                 sendMessage?.(event, examplePrompt.text);
               }}
-              className="flex items-center space-x-1 border border-emerald-500/30 rounded-full bg-slate-900/60 hover:bg-emerald-900/40 backdrop-blur-sm text-slate-200 hover:text-emerald-100 hover:border-emerald-400/50 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-emerald-500/20"
+              className="flex items-center space-x-1 border border-emerald-500/30 rounded-full backdrop-blur-sm text-slate-200 hover:text-emerald-100 hover:border-emerald-400/50 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-emerald-500/20"
+              style={{ backgroundColor: '#141313' }}
             >
               <img 
                 src={examplePrompt.icon} 
