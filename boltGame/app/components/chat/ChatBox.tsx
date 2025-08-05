@@ -63,7 +63,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
   return (
     <div
       className={classNames(
-        'relative bg-gray-900 p-1 rounded-2xl relative w-full max-w-chat mx-auto z-prompt',
+        'relative p-1 rounded-2xl relative w-full max-w-chat mx-auto z-prompt',
         /*
          * {
          *   'sticky bottom-2': chatStarted,
@@ -73,6 +73,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
       style={{
         border: '2px solid transparent',
         borderRadius: '20px',
+        backgroundColor: '#141313',
         background: 'linear-gradient(#141313, #141313) padding-box, linear-gradient(252.01deg, #8EFE49 -1.57%, rgba(115, 205, 59, 0.3) 7.95%, rgba(85, 152, 44, 0.1) 85.16%, #8EFE49 119.37%) border-box',
         backgroundClip: 'padding-box, border-box',
         backgroundOrigin: 'padding-box, border-box'
@@ -114,12 +115,13 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
         </div>
       )}
       <div
-        className={classNames('relative shadow-xs  rounded-lg bg-gray-900')}
+        className={classNames('relative shadow-xs rounded-lg')}
+        style={{ backgroundColor: '#141313' }}
       >
         <textarea
           ref={props.textareaRef}
           className={classNames(
-            'w-full h-44 bg-gray-900 rounded-xl p-4 text-white placeholder-gray-400 resize-none focus:outline-none',
+            'w-full h-44 rounded-xl p-4 text-white placeholder-gray-400 resize-none focus:outline-none',
             'transition-all duration-200',
             'hover:border-neon-green',
           )}
@@ -180,6 +182,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
           }}
           onPaste={props.handlePaste}
           style={{
+            backgroundColor: '#141313',
             minHeight: props.TEXTAREA_MIN_HEIGHT,
             maxHeight: props.TEXTAREA_MAX_HEIGHT,
           }}
@@ -205,7 +208,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
             />
           )}
         </ClientOnly>
-        <div className="flex justify-between items-center text-sm p-4 pt-0">
+        <div className="flex justify-between items-center text-sm p-4 pt-0" style={{ backgroundColor: '#141313' }}>
           <div className="flex gap-3 items-center">
             <IconButton title="Upload file" className="transition-all text-gray-400 hover:text-neon-green" onClick={() => props.handleFileUpload()}>
               <div className="i-ph:paperclip text-xl"></div>
