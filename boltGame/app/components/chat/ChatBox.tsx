@@ -115,7 +115,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
         </div>
       )}
       <div
-        className={classNames('relative shadow-xs rounded-lg')}
+        className={classNames('relative shadow-xs  rounded-lg')}
         style={{ backgroundColor: '#141313' }}
       >
         <textarea
