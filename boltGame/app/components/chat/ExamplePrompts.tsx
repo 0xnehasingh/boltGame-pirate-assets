@@ -26,7 +26,18 @@ export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInp
               onClick={(event) => {
                 sendMessage?.(event, examplePrompt.text);
               }}
-              className="flex items-center space-x-2 border border-emerald-500/30 rounded-full bg-slate-900/60 hover:bg-emerald-900/40 backdrop-blur-sm text-slate-200 hover:text-emerald-100 hover:border-emerald-400/50 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-emerald-500/20"
+              className="flex items-center space-x-2 border border-emerald-500/30 rounded-full backdrop-blur-sm text-slate-200 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg"
+              style={{ 
+                backgroundColor: '#141313',
+                '--hover-border-color': index === 0 ? '#3B82F6' : index === 1 ? '#3B82F6' : '#10B981'
+              } as React.CSSProperties}
+              onMouseEnter={(e) => {
+                const color = index === 0 ? '#06B6D4' : index === 1 ? '#3B82F6' : '#10B981';
+                e.currentTarget.style.borderColor = color;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+              }}
             >
               <img 
                 src={examplePrompt.icon} 
@@ -46,7 +57,18 @@ export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInp
               onClick={(event) => {
                 sendMessage?.(event, examplePrompt.text);
               }}
-              className="flex items-center space-x-1 border border-emerald-500/30 rounded-full bg-slate-900/60 hover:bg-emerald-900/40 backdrop-blur-sm text-slate-200 hover:text-emerald-100 hover:border-emerald-400/50 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg hover:shadow-emerald-500/20"
+              className="flex items-center space-x-1 border border-emerald-500/30 rounded-full backdrop-blur-sm text-slate-200 px-4 py-2 text-sm transition-all duration-200 font-medium shadow-lg"
+              style={{ 
+                backgroundColor: '#141313',
+                '--hover-border-color': index === 0 ? '#F97316' : index === 1 ? '#10B981' : '#EF4444'
+              } as React.CSSProperties}
+              onMouseEnter={(e) => {
+                const color = index === 0 ? '#F97316' : index === 1 ? '#10B981' : '#EF4444';
+                e.currentTarget.style.borderColor = color;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+              }}
             >
               <img 
                 src={examplePrompt.icon} 
