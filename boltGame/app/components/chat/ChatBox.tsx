@@ -63,7 +63,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
   return (
     <div
       className={classNames(
-        'relative p-1 rounded-2xl relative w-full max-w-chat mx-auto z-prompt',
+        'relative bg-black p-1 rounded-2xl relative w-full max-w-chat mx-auto z-prompt',
         /*
          * {
          *   'sticky bottom-2': chatStarted,
@@ -73,7 +73,6 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
       style={{
         border: '2px solid transparent',
         borderRadius: '20px',
-        backgroundColor: '#141313',
         background: 'linear-gradient(#141313, #141313) padding-box, linear-gradient(252.01deg, #8EFE49 -1.57%, rgba(115, 205, 59, 0.3) 7.95%, rgba(85, 152, 44, 0.1) 85.16%, #8EFE49 119.37%) border-box',
         backgroundClip: 'padding-box, border-box',
         backgroundOrigin: 'padding-box, border-box'
@@ -115,7 +114,7 @@ export const ChatBox: React.FC<ChatBoxProps> = (props) => {
         </div>
       )}
       <div
-        className={classNames('relative shadow-xs rounded-lg')}
+        className={classNames('relative shadow-xs  rounded-lg')}
         style={{ backgroundColor: '#141313' }}
       >
         <textarea
