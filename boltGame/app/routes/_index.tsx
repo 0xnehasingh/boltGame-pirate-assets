@@ -4,6 +4,9 @@ import { BaseChat } from '~/components/chat/BaseChat';
 import { Chat } from '~/components/chat/Chat.client';
 import { Header } from '~/components/header/Header';
 import BackgroundRays from '~/components/ui/BackgroundRays';
+import FeaturedGames from '~/components/FeaturedGames';
+import TopCreators from '~/components/TopCreators';
+import Footer from '~/components/Footer';
 
 export const meta: MetaFunction = () => {
   return [{ title: 'Bolt' }, { name: 'description', content: 'Talk with Bolt, an AI assistant from StackBlitz' }];
@@ -23,6 +26,9 @@ export default function Index() {
       <BackgroundRays />
       <Header />
       <ClientOnly fallback={<BaseChat />}>{() => <Chat />}</ClientOnly>
+      <FeaturedGames />
+      <TopCreators />
+      <Footer />
     </div>
   );
 }
